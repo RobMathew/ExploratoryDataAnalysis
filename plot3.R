@@ -50,7 +50,8 @@ lines(data$Sub_metering_2, col="red", type = "l")
 par(new=T)
 lines(data$Sub_metering_3, col = "blue", type = "l")
 
-legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col=c("black", "red", "blue"))
+legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lwd=1, lty=c(1),
+col=c("black", "red", "blue"))
 
 
 dev.off()
